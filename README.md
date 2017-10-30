@@ -1,14 +1,12 @@
 # GettingAndCleaningData
 ### Overview
 
-[![Build Status](https://travis-ci.org/rstudio/rmarkdown.svg?branch=master)](https://travis-ci.org/rstudio/rmarkdown)
-
 This is a simple R script for reading, merging, and cleaning up the data set located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 In particular, it:
 
--   Downloads/extracts the data set (assuming they haven't been downloaded/extracted already). This creates a directory named UCI HAR Dataset with the original data
+-   Downloads/extracts the data set (assuming they haven't been downloaded/extracted already). This creates a directory named "UCI HAR Dataset" with the original data
 -   Merges together the training and testing sub-datafiles
---	The main directory contains test and train subdirectories, activity_labels.txt, features.txt, features_info.txt, and a README at README.txt.
+*	The main directory contains test and train subdirectories, activity_labels.txt, features.txt, features_info.txt, and a README at README.txt.
 --	activity_labels.txt has each line with a number and a corresponding activity. During each observation/test, the individual is performing one of these activities.
 --	features.txt contains the original names of the 561 calculations that were performed on each individual each time they were tested.
 --	features_info.txt contains helpful descriptions pertaining to how the names of the variables used in features.txt were arrived at.
