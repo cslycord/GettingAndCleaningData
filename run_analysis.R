@@ -106,4 +106,4 @@ getMeanData = function(df){
 extractFile()
 myOriginalData = readData()
 extractedData = extractData(myOriginalData)
-meanCalculationsData = getMeanSDData(extractedData)
+meanCalculationsData = getMeanData(extractedData)
